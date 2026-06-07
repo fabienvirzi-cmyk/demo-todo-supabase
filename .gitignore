@@ -1,0 +1,12 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Note : config.js EST versionné volontairement.
+# Il ne contient que la clé "anon" publique de Supabase, conçue pour
+# être exposée côté front-end. Ne jamais y mettre la clé service_role.

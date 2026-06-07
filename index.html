@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo To-do · Supabase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Ma liste de tâches</h1>
+      <p class="app__subtitle">Démo technique : front-end statique + base de données Supabase</p>
+    </header>
+
+    <form id="form-ajout" class="ajout" autocomplete="off">
+      <input
+        id="champ-tache"
+        class="ajout__champ"
+        type="text"
+        placeholder="Ajouter une tâche…"
+        maxlength="200"
+        required
+      >
+      <button type="submit" class="ajout__bouton">Ajouter</button>
+    </form>
+
+    <p id="message-etat" class="etat" role="status"></p>
+
+    <ul id="liste-taches" class="liste"></ul>
+  </main>
+
+  <footer class="pied">
+    Démo créée pour valider la chaîne d'outils ABC Thermique · Données stockées dans Supabase
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
