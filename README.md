@@ -5,6 +5,8 @@ dont les données sont stockées dans une vraie base de données **Supabase**.
 
 - **Créée le :** 2026-06-07
 - **Type :** application web statique (démo / validation de chaîne d'outils)
+- **En ligne :** https://demo-todo-supabase.vercel.app
+- **Dépôt GitHub :** https://github.com/fabienvirzi-cmyk/demo-todo-supabase
 - **But :** valider de bout en bout la chaîne `création → Git → GitHub → Vercel`,
   avec en plus une base de données distante. Modèle réutilisable pour de vrais projets.
 
@@ -60,6 +62,13 @@ puis colle-les dans `config.js`.
 Ouvre `index.html` dans un navigateur. Tu dois pouvoir ajouter, cocher et
 supprimer des tâches, et les retrouver après rechargement de la page.
 
+## Déploiement
+
+Déployé sur Vercel via l'API (upload direct des fichiers statiques), depuis Claude.
+Pour redéployer après une modification : relancer le déploiement Vercel (API ou
+dashboard). Pour activer le **redéploiement automatique à chaque push GitHub**,
+connecter le dépôt dans Vercel : *Project Settings > Git > Connect Git Repository*.
+
 ## État
 
-Démo fonctionnelle. Sert de patron pour les futures applications connectées à une base de données.
+Démo fonctionnelle et en ligne. Sert de patron pour les futures applications connectées à une base de données.
