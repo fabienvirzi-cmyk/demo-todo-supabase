@@ -5,7 +5,7 @@ dont les données sont stockées dans une vraie base de données **Supabase**.
 
 - **Créée le :** 2026-06-07
 - **Type :** application web statique (démo / validation de chaîne d'outils)
-- **But :** valider de bout en bout la chaîne `création → Git → GitHub → Netlify`,
+- **But :** valider de bout en bout la chaîne `création → Git → GitHub → Vercel`,
   avec en plus une base de données distante. Modèle réutilisable pour de vrais projets.
 
 ## Stack
@@ -13,7 +13,7 @@ dont les données sont stockées dans une vraie base de données **Supabase**.
 - **Front-end :** HTML / CSS / JavaScript pur, **sans build, sans Node.js**.
 - **Base de données :** Supabase (PostgreSQL hébergé).
 - **Client Supabase :** chargé depuis le CDN `esm.sh` (aucune installation).
-- **Hébergement :** Netlify (déploiement d'un dossier statique).
+- **Hébergement :** Vercel (déploiement d'un dossier statique, connecté à GitHub).
 
 ## Fichiers
 
