@@ -64,10 +64,9 @@ supprimer des tâches, et les retrouver après rechargement de la page.
 
 ## Déploiement
 
-Déployé sur Vercel via l'API (upload direct des fichiers statiques), depuis Claude.
-Pour redéployer après une modification : relancer le déploiement Vercel (API ou
-dashboard). Pour activer le **redéploiement automatique à chaque push GitHub**,
-connecter le dépôt dans Vercel : *Project Settings > Git > Connect Git Repository*.
+Déployé sur Vercel, dépôt GitHub connecté : **chaque `git push` sur `main`
+redéploie automatiquement** en production. (Premier déploiement fait via l'API
+Vercel, puis connexion Git activée pour l'auto-déploiement.)
 
 ## État
 
